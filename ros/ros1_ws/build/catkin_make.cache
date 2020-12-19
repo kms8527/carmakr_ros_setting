@@ -1,0 +1,2 @@
+cmrosutils:hellocm:hellocm_cmnode:hellocm_msgs
+-DCATKIN_DEVEL_PREFIX=/home/zz/carmaker_ros/ros/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zz/carmaker_ros/ros/ros1_ws/install -G Unix Makefiles

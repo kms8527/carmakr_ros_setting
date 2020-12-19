@@ -1,0 +1,39 @@
+APPLICATION	Car_Generic with CMRosIF #5 (linux64-9.0.2)
+COMPILED	zz@zz-system-product-name 2020-12-14 11:26:06
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros1_ws/devel/lib/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 1060881
+		  -> CM Version   = 90002
+		  -> Has param '/use_sim_time' with value '1'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish 'hellocm/cm2ext'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = '/CMNode'
+		  -> Namespace = '/'
+		  -> Advertised Topics (3)
+		    -> /rosout
+		    -> /clock
+		    -> /hellocm/cm2ext
+		  -> Subscribed Topics (3)
+		    -> /clock
+		    -> /hellocm/ext2cm
+		    -> /Test2
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2020-12-18 14:51:42
+TIME	0.000
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	14:51:43
+TIME	8.929
+		Connection to GUI lost, initiate shutdown
+SHUTDOWN	Automatic CarMaker shutdown initiated
+
+		CMRosIF_CMNode_End: End

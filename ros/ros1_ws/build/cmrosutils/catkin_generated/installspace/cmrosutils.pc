@@ -1,0 +1,8 @@
+prefix=/home/zz/carmaker_ros/ros/ros1_ws/install
+
+Name: cmrosutils
+Description: Description of cmrosutils
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

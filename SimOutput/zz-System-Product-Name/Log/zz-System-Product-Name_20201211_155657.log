@@ -1,0 +1,17 @@
+APPLICATION	CarMaker 9.0.2 - Car_Generic #167 (linux64-9.0.2)
+COMPILED	fh@obelix.ipg 2020-08-05 17:14:28
+ 
+FIRST_INIT	(internal default used)	2020-12-11 15:56:57
+TIME	0.000
+SIM_END			0s	0m
+IDLE	15:56:58
+TIME	27.887
+SIM_START	Examples/BasicFunctions/DVA/ManipulateInternalStates	2020-12-11 16:01:37
+TIME	0.000
+SIMULATE	Examples/BasicFunctions/DVA/ManipulateInternalStates
+
+TIME	50.009
+SIM_END		Examples/BasicFunctions/DVA/ManipulateInternalStates	50.002s	834.748m
+TIME	62.726
+SHUTDOWN	CarMaker shutdown initiated
+
