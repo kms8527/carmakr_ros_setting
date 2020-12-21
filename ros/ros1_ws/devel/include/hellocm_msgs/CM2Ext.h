@@ -30,7 +30,8 @@ struct CM2Ext_
     , cycleno(0)
     , synthdelay(0.0)
     , steer(0.0)
-    , accel(0.0)  {
+    , accel(0.0)
+    , vel()  {
     }
   CM2Ext_(const ContainerAllocator& _alloc)
     : header(_alloc)
@@ -38,7 +39,8 @@ struct CM2Ext_
     , cycleno(0)
     , synthdelay(0.0)
     , steer(0.0)
-    , accel(0.0)  {
+    , accel(0.0)
+    , vel(_alloc)  {
   (void)_alloc;
     }
 
@@ -61,6 +63,9 @@ struct CM2Ext_
 
    typedef double _accel_type;
   _accel_type accel;
+
+   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _vel_type;
+  _vel_type vel;
 
 
 
@@ -140,12 +145,12 @@ struct MD5Sum< ::hellocm_msgs::CM2Ext_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "eb86aac52e6cb27515171ea0cf06ea43";
+    return "90227dfd2fba850610789b3d8ed2734d";
   }
 
   static const char* value(const ::hellocm_msgs::CM2Ext_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xeb86aac52e6cb275ULL;
-  static const uint64_t static_value2 = 0x15171ea0cf06ea43ULL;
+  static const uint64_t static_value1 = 0x90227dfd2fba8506ULL;
+  static const uint64_t static_value2 = 0x10789b3d8ed2734dULL;
 };
 
 template<class ContainerAllocator>
@@ -175,6 +180,8 @@ int64   cycleno                                # Cycle number since simulation s
 float64 synthdelay                             # Synthetic delay to check synchronization (optional)\n\
 float64 steer\n\
 float64 accel\n\
+float64[] vel\n\
+\n\
 \n\
 \n\
 ================================================================================\n\
@@ -218,6 +225,7 @@ namespace serialization
       stream.next(m.synthdelay);
       stream.next(m.steer);
       stream.next(m.accel);
+      stream.next(m.vel);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -249,6 +257,12 @@ struct Printer< ::hellocm_msgs::CM2Ext_<ContainerAllocator> >
     Printer<double>::stream(s, indent + "  ", v.steer);
     s << indent << "accel: ";
     Printer<double>::stream(s, indent + "  ", v.accel);
+    s << indent << "vel[]" << std::endl;
+    for (size_t i = 0; i < v.vel.size(); ++i)
+    {
+      s << indent << "  vel[" << i << "]: ";
+      Printer<double>::stream(s, indent + "  ", v.vel[i]);
+    }
   }
 };
 

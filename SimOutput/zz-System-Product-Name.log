@@ -415,3 +415,624 @@ SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-19 16:49:04
 SYSTEM_INFO	Car_Generic with CMRosIF #28	zz@zz-system-product-name 2020-12-18 19:35:00	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
 SIM	1608364144	zz-System-Product-Name			0	0	0
 SIM	1608364149	zz-System-Product-Name	zz	Test	1	27.219	244.639
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:13:43
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #39	zz@zz-system-product-name 2020-12-20 01:13:16	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608394423	zz-System-Product-Name			0	0	0
+SIM	1608394433	zz-System-Product-Name	zz	Test	0	25.165	0.000171594
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:17:24
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #40	zz@zz-system-product-name 2020-12-20 01:16:52	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:17:36
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #40	zz@zz-system-product-name 2020-12-20 01:16:52	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608394656	zz-System-Product-Name			0	0	0
+SIM	1608394699	zz-System-Product-Name	zz	Test	0	29.14	3.57989e-05
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:20:27
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #41	zz@zz-system-product-name 2020-12-20 01:19:29	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:22:23
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #42	zz@zz-system-product-name 2020-12-20 01:21:50	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608394944	zz-System-Product-Name			0	0	0
+SIM	1608394947	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	1	40.362	288.231
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:24:18
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #43	zz@zz-system-product-name 2020-12-20 01:23:37	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:24:28
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #43	zz@zz-system-product-name 2020-12-20 01:23:37	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608395068	zz-System-Product-Name			0	0	0
+SIM	1608395071	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	1	40.341	288.601
+SIM	1608395134	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	1	40.236	286.732
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:26:57
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #43	zz@zz-system-product-name 2020-12-20 01:23:37	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:27:06
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #43	zz@zz-system-product-name 2020-12-20 01:23:37	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608395226	zz-System-Product-Name			0	0	0
+SIM	1608395248	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	33.741	184.721
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:31:38
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #44	zz@zz-system-product-name 2020-12-20 01:30:54	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608395499	zz-System-Product-Name			0	0	0
+SIM	1608395504	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	54.455	0.000547226
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:35:30
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #45	zz@zz-system-product-name 2020-12-20 01:35:06	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608395731	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:35:32
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #45	zz@zz-system-product-name 2020-12-20 01:35:06	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608395732	zz-System-Product-Name			0	0	0
+SIM	1608395738	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	36.519	221.209
+SIM	1608395777	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	1	30.359	274.294
+SIM	1608396033	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	1	40.312	287.957
+SIM	1608396095	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	35.606	207.091
+SIM	1608396133	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	19.656	154.15
+SIM	1608396166	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	27.954	172.011
+SIM	1608396211	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Jumping	0	25.495	172.14
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 01:51:43
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #45	zz@zz-system-product-name 2020-12-20 01:35:06	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608396703	zz-System-Product-Name			0	0	0
+SIM	1608396704	zz-System-Product-Name	zz	Examples/VehicleDynamics/Ride/Waves	0	19.344	95.7259
+SIM	1608396749	zz-System-Product-Name	zz	Examples/DriverAssistance/LaneSupportAssist/LSA_ProvingGround	0	17.76	383.006
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:09:59
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #45	zz@zz-system-product-name 2020-12-20 01:35:06	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608397799	zz-System-Product-Name			0	0	0
+SIM	1608397809	zz-System-Product-Name	zz	Test	0	36.096	384.688
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:39:00
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #46	zz@zz-system-product-name 2020-12-20 02:38:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608399540	zz-System-Product-Name			0	0	0
+SIM	1608399543	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:39:59
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #47	zz@zz-system-product-name 2020-12-20 02:39:42	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608399599	zz-System-Product-Name			0	0	0
+SIM	1608399601	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:40:46
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #47	zz@zz-system-product-name 2020-12-20 02:39:42	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608399646	zz-System-Product-Name			0	0	0
+SIM	1608399648	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:41:34
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #47	zz@zz-system-product-name 2020-12-20 02:39:42	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608399694	zz-System-Product-Name			0	0	0
+SIM	1608399697	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:44:42
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #48	zz@zz-system-product-name 2020-12-20 02:44:24	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608399882	zz-System-Product-Name			0	0	0
+SIM	1608399884	zz-System-Product-Name	zz	Test	1	0	0
+SIM	1608399986	zz-System-Product-Name	zz	Test	0	19.192	332.25
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:46:59
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #48	zz@zz-system-product-name 2020-12-20 02:44:24	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400019	zz-System-Product-Name			0	0	0
+SIM	1608400024	zz-System-Product-Name	zz	Test	0	7.229	143.894
+SIM	1608400043	zz-System-Product-Name	zz	Test	1	0	143.894
+SIM	1608400070	zz-System-Product-Name	zz	Test	2	23.015	133.762
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:49:05
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #50	zz@zz-system-product-name 2020-12-20 02:48:36	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400145	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:49:06
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #50	zz@zz-system-product-name 2020-12-20 02:48:36	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400147	zz-System-Product-Name			0	0	0
+SIM	1608400160	zz-System-Product-Name	zz	Test	0	53.256	268.486
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:54:41
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #51	zz@zz-system-product-name 2020-12-20 02:54:07	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400481	zz-System-Product-Name			0	0	0
+SIM	1608400485	zz-System-Product-Name	zz	Test	0	19.508	109.689
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 02:57:06
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #52	zz@zz-system-product-name 2020-12-20 02:56:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400626	zz-System-Product-Name			0	0	0
+SIM	1608400629	zz-System-Product-Name	zz	Test	0	53.355	268.502
+SIM	1608400708	zz-System-Product-Name	zz	Test	0	18.479	99.2774
+SIM	1608400778	zz-System-Product-Name	zz	Test	1	48.915	237.153
+SIM	1608400865	zz-System-Product-Name	zz	Test	1	0	237.153
+SIM	1608400870	zz-System-Product-Name	zz	Test	1	0	237.153
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:01:20
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #52	zz@zz-system-product-name 2020-12-20 02:56:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400881	zz-System-Product-Name			0	0	0
+SIM	1608400886	zz-System-Product-Name	zz	Test	0	28.653	145.164
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:02:11
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #52	zz@zz-system-product-name 2020-12-20 02:56:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608400931	zz-System-Product-Name			0	0	0
+SIM	1608400937	zz-System-Product-Name	zz	Test	0	26.924	134.637
+SIM	1608401051	zz-System-Product-Name	zz	Test	0	12.048	88.3415
+SIM	1608401076	zz-System-Product-Name	zz	Test	0	1.328	22.4827
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:04:47
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #52	zz@zz-system-product-name 2020-12-20 02:56:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401087	zz-System-Product-Name			0	0	0
+SIM	1608401094	zz-System-Product-Name	zz	Test	0	6.478	45.2862
+SIM	1608401119	zz-System-Product-Name	zz	Test	1	0	45.2862
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:05:35
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #52	zz@zz-system-product-name 2020-12-20 02:56:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401135	zz-System-Product-Name			0	0	0
+SIM	1608401143	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:07:12
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #53	zz@zz-system-product-name 2020-12-20 03:06:54	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401232	zz-System-Product-Name			0	0	0
+SIM	1608401235	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:07:29
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #53	zz@zz-system-product-name 2020-12-20 03:06:54	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401250	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:07:55
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #53	zz@zz-system-product-name 2020-12-20 03:06:54	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401275	zz-System-Product-Name			0	0	0
+SIM	1608401279	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:08:14
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #53	zz@zz-system-product-name 2020-12-20 03:06:54	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401294	zz-System-Product-Name			0	0	0
+SIM	1608401299	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:08:51
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401331	zz-System-Product-Name			0	0	0
+SIM	1608401334	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:10:24
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401425	zz-System-Product-Name			0	0	0
+SIM	1608401429	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:10:49
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401450	zz-System-Product-Name			0	0	0
+SIM	1608401454	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:11:08
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401469	zz-System-Product-Name			0	0	0
+SIM	1608401481	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:12:51
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401571	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:13:02
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401582	zz-System-Product-Name			0	0	0
+SIM	1608401586	zz-System-Product-Name	zz	Test	1	0	0
+SIM	1608401644	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:14:19
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #54	zz@zz-system-product-name 2020-12-20 03:08:35	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401659	zz-System-Product-Name			0	0	0
+SIM	1608401721	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:15:45
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #55	zz@zz-system-product-name 2020-12-20 03:15:31	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401746	zz-System-Product-Name			0	0	0
+SIM	1608401754	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:16:27
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #55	zz@zz-system-product-name 2020-12-20 03:15:31	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401787	zz-System-Product-Name			0	0	0
+SIM	1608401791	zz-System-Product-Name	zz	Test	1	0.003	0.0599998
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:18:51
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #55	zz@zz-system-product-name 2020-12-20 03:15:31	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608401899	zz-System-Product-Name	zz	Test	0	0.003	0.0599998
+SIM	1608401932	zz-System-Product-Name			0	0	0
+SIM	1608401944	zz-System-Product-Name	zz	Test	1	0	0
+SIM	1608402667	zz-System-Product-Name	zz	Test	1	0	0
+SIM	1608402679	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:31:27
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #55	zz@zz-system-product-name 2020-12-20 03:15:31	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608402687	zz-System-Product-Name			0	0	0
+SIM	1608402692	zz-System-Product-Name	zz	Test	1	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:33:52
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608402832	zz-System-Product-Name			0	0	0
+SIM	1608402834	zz-System-Product-Name	zz	Test	1	0	0
+SIM	1608402871	zz-System-Product-Name	zz	Test	0	19.985	115.381
+SIM	1608402896	zz-System-Product-Name	zz	Test	0	7.197	46.3018
+SIM	1608402913	zz-System-Product-Name	zz	Test	0	53.31	268.499
+SIM	1608403001	zz-System-Product-Name	zz	Test	0	14.261	89.5123
+SIM	1608403035	zz-System-Product-Name	zz	Test	1	0	89.5123
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:41:03
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403263	zz-System-Product-Name			0	0	0
+SIM	1608403265	zz-System-Product-Name	zz	Test	0	24.82	495.747
+SIM	1608403318	zz-System-Product-Name	zz	Test	0	9.597	84.6855
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:42:12
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403333	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:42:28
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403348	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:42:54
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403374	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:42:55
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403376	zz-System-Product-Name			0	0	0
+SIM	1608403380	zz-System-Product-Name	zz	Test	0	30	120.422
+SIM	1608403651	zz-System-Product-Name	zz	Test	0	31.021	122.21
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:48:08
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #56	zz@zz-system-product-name 2020-12-20 03:33:28	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403688	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:49:32
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #57	zz@zz-system-product-name 2020-12-20 03:49:01	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608403772	zz-System-Product-Name			0	0	0
+SIM	1608403775	zz-System-Product-Name	zz	Test	0	19.192	332.25
+SIM	1608403804	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608403850	zz-System-Product-Name	zz	Test	0	0	0
+SIM	1608403865	zz-System-Product-Name	zz	Test	0	0.836	16.5213
+SIM	1608403905	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608403966	zz-System-Product-Name	zz	Test	0	17.195	268.55
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:54:10
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #58	zz@zz-system-product-name 2020-12-20 03:53:32	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608404050	zz-System-Product-Name			0	0	0
+SIM	1608404051	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608404108	zz-System-Product-Name	zz	Test	0	19.192	332.25
+SIM	1608404135	zz-System-Product-Name	zz	Test	0	19.081	328.402
+SIM	1608404196	zz-System-Product-Name	zz	Test	0	40.391	51.4327
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:57:21
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #58	zz@zz-system-product-name 2020-12-20 03:53:32	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:57:38
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #58	zz@zz-system-product-name 2020-12-20 03:53:32	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608404259	zz-System-Product-Name			0	0	0
+SIM	1608404263	zz-System-Product-Name	zz	Test	0	25.669	51.4302
+SIM	1608404296	zz-System-Product-Name	zz	Test	0	22.526	51.4294
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:58:44
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #58	zz@zz-system-product-name 2020-12-20 03:53:32	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608404324	zz-System-Product-Name			0	0	0
+SIM	1608404332	zz-System-Product-Name	zz	Test	0	24.329	51.4299
+SIM	1608404366	zz-System-Product-Name	zz	Test	0	12.025	51.4252
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 03:59:43
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #58	zz@zz-system-product-name 2020-12-20 03:53:32	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608404383	zz-System-Product-Name			0	0	0
+SIM	1608404391	zz-System-Product-Name	zz	Test	0	9.332	51.4237
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-20 04:00:48
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #59	zz@zz-system-product-name 2020-12-20 04:00:23	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608404448	zz-System-Product-Name			0	0	0
+SIM	1608404452	zz-System-Product-Name	zz	Test	0	19.999	283.866
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 10:20:11
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #59	zz@zz-system-product-name 2020-12-20 04:00:23	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 10:20:37
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #59	zz@zz-system-product-name 2020-12-20 04:00:23	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608513638	zz-System-Product-Name			0	0	0
+SIM	1608513641	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608513676	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608513735	zz-System-Product-Name	zz	Test	0	19.192	332.25
+SIM	1608513774	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608513834	zz-System-Product-Name	zz	Test	0	19.999	283.866
+SIM	1608513898	zz-System-Product-Name	zz	Test	0	10.2	53.3538
+SIM	1608513911	zz-System-Product-Name	zz	Test	0	9.702	53.3535
+SIM	1608513924	zz-System-Product-Name	zz	Test	0	5.542	53.3473
+SIM	1608513951	zz-System-Product-Name	zz	Test	0	41.756	298.137
+SIM	1608513995	zz-System-Product-Name	zz	Test	0	26.414	355.031
+SIM	1608514049	zz-System-Product-Name	zz	Test	0	14.268	232.42
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 10:35:56
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #60	zz@zz-system-product-name 2020-12-21 10:34:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608514557	zz-System-Product-Name			0	0	0
+SIM	1608514560	zz-System-Product-Name	zz	Test	0	89.278	495.74
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 10:38:34
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #60	zz@zz-system-product-name 2020-12-21 10:34:40	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608514715	zz-System-Product-Name			0	0	0
+SIM	1608514717	zz-System-Product-Name	zz	Test	0	17.419	271.32
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 10:44:44
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #61	zz@zz-system-product-name 2020-12-21 10:44:21	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608515084	zz-System-Product-Name			0	0	0
+SIM	1608515111	zz-System-Product-Name	zz	Test	0	64.768	452.594
+SIM	1608515226	zz-System-Product-Name	zz	Test	0	89.278	495.74
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:00:50
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #62	zz@zz-system-product-name 2020-12-21 11:00:16	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608516050	zz-System-Product-Name			0	0	0
+SIM	1608516054	zz-System-Product-Name	zz	Test	0	24.132	337.537
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:11:38
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608516698	zz-System-Product-Name			0	0	0
+SIM	1608516699	zz-System-Product-Name	zz	Test	0	3.034	58.1502
+SIM	1608516715	zz-System-Product-Name	zz	Test	0	18.085	279.081
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:30:03
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608517803	zz-System-Product-Name			0	0	0
+SIM	1608517807	zz-System-Product-Name	zz	Test	0	19.504	294.546
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:31:12
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608517872	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:48:39
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608518919	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:48:54
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608518935	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:49:09
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608518949	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 11:49:46
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #64	zz@zz-system-product-name 2020-12-21 11:08:03	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608518986	zz-System-Product-Name			0	0	0
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 13:21:45
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #65	zz@zz-system-product-name 2020-12-21 11:56:18	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608524506	zz-System-Product-Name			0	0	0
+SIM	1608524512	zz-System-Product-Name	zz	Test	0	3.109	59.5226
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 13:58:24
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #65	zz@zz-system-product-name 2020-12-21 11:56:18	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608526704	zz-System-Product-Name			0	0	0
+SIM	1608526775	zz-System-Product-Name	zz	Test	0	80.668	468.325
+SIM	1608530511	zz-System-Product-Name	zz	Test	1	44.842	270.468
+SIM	1608532436	zz-System-Product-Name	zz	Test	1	0	270.468
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-21 15:34:07
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #65	zz@zz-system-product-name 2020-12-21 11:56:18	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608532447	zz-System-Product-Name			0	0	0
+SIM	1608532452	zz-System-Product-Name	zz	Test	0	15.54	108.596
+SIM	1608532727	zz-System-Product-Name	zz	Test	1	42.372	256.825
+
+
+SYSTEM_START	-	zz-System-Product-Name	zz-System-Product-Name	2020-12-22 00:10:15
+
+
+SYSTEM_INFO	Car_Generic with CMRosIF #65	zz@zz-system-product-name 2020-12-21 11:56:18	(9.0.2 fh@obelix.ipg 2020-08-05 17:14:25)
+SIM	1608563416	zz-System-Product-Name			0	0	0
+SIM	1608563419	zz-System-Product-Name	zz	Test	0	32.565	202.632

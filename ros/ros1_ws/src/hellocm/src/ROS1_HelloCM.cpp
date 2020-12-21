@@ -26,6 +26,7 @@
 
 
 #include <cmrosutils/CMRosUtils.h>    /* Node independent templates, headers, ... */
+#include <hellocm/controller.h>
 #include <hellocm/ROS1_HelloCM.h>
 
 
@@ -80,7 +81,7 @@ static struct {
     tRosIF_Cfg    Cfg;
 
 } RosIF;
-
+longitudinal_controller controller;
 
 
 /*!
@@ -141,14 +142,19 @@ ros_HelloCM_CB_SrvInit(hellocm_msgs::Init::Request &req,
 static void
 ros_HelloCM_CB_TpcIn(const hellocm_msgs::CM2Ext::ConstPtr &msg)
 {
+    double *vel;
+    std::copy(msg->vel.begin(), msg->vel.end(), vel);
+    controller.update(vel);
+
+//asdf_sub
     /* Update variables
      * - ToDo: mutex?
      */
     RosIF.SynthDelay = msg->synthdelay;
 //, Steer=%.3fs, Accel=%.3fs
-    LOG("%s - TpcIn (ROS Time=%.3fs): CarMaker Node is in cycle %lu, Time=%.3fs, Stamp=%.3fs, SeqID=%d, Steer=%.3fs, Accel=%.3fs",
+    LOG("%s - TpcIn (ROS Time=%.3fs): CarMaker Node is in cycle %lu, Time=%.3fs, Stamp=%.3fs, SeqID=%d, Steer=%.3fs, Accel=%.3fs, Speed = %.3f km/h",
 	    ros::this_node::getName().c_str(), ros::Time::now().toSec(),
-        msg->cycleno, msg->time.toSec(), msg->header.stamp.toSec(), msg->header.seq, msg->steer, msg->accel);
+        msg->cycleno, msg->time.toSec(), msg->header.stamp.toSec(), msg->header.seq, msg->steer, msg->accel, vel[0]*3.6);
 }
 
 
@@ -163,13 +169,15 @@ ros_HelloCM_CB_TpcIn(const hellocm_msgs::CM2Ext::ConstPtr &msg)
  */
 static void
 ros_HelloCM_CB_PubTimer(const ros::TimerEvent& Event) {
-
+//asdf_pub
     ros::WallTime wtime;
     auto out = &RosIF.Topics.Pub.Ext2CM;
     double delay;
 
+
     out->Msg.cycleno = ++RosIF.CycleNo;
     out->Msg.time    = ros::Time::now();
+
 
     /* Header stamp and frame needs to be set manually! */
     /* provide system time close to data is sent */
@@ -177,7 +185,7 @@ ros_HelloCM_CB_PubTimer(const ros::TimerEvent& Event) {
     out->Msg.header.stamp.sec  = wtime.sec;
     out->Msg.header.stamp.nsec = wtime.nsec;
     out->Msg.steer = 0;
-    out->Msg.accel = 0.5;
+    out->Msg.accel = controller.calculate_torque();
 
     /* Synthetic delay to demonstrate effect of synchronization
      * - ToDo: mutex?
@@ -190,9 +198,9 @@ ros_HelloCM_CB_PubTimer(const ros::TimerEvent& Event) {
     /* Publish the message */
     out->Pub.publish(out->Msg);
 //, accel = %.3fs, steer = %.3fs"
-    LOG("%s - PubTimer (ROS Time=%.3fs): This Node is in cycle %lu, Time=%.3fs, Stamp=%.3fs, accel = %.3fs, steer = %.3fs",
+    LOG("%s - PubTimer (ROS Time=%.3fs): This Node is in cycle %lu, Time=%.3fs, Stamp=%.3fs, accel = %.3fs, steer = %.3fs,vel = %.3fm/s",
 	    ros::this_node::getName().c_str(), ros::Time::now().toSec(),
-        out->Msg.cycleno, out->Msg.time.toSec(), out->Msg.header.stamp.toSec(), out->Msg.accel, out->Msg.steer);
+        out->Msg.cycleno, out->Msg.time.toSec(), out->Msg.header.stamp.toSec(), out->Msg.accel, out->Msg.steer,controller.v[0]);
 }
 
 
@@ -220,11 +228,15 @@ ros_HelloCM_CB_WallTimer(const ros::WallTimerEvent& Event) {
  */
 static int
 ros_HelloCM_Init(int Argc, char **Argv) {
-
+//asdf_init
     char sbuf[256];
     int  rv  = 0;    
     bool rvb = false;
     ros::V_string names;
+
+    double desired_velocity = 20/3.6; //km/h
+    double kp = 3;
+    controller.set_param(desired_velocity,kp);
 
     /* Name might be different after remapping! */
     LOG("Initialize ROS Node '%s'", hellocm::node_name.c_str());
@@ -291,7 +303,7 @@ ros_HelloCM_Init(int Argc, char **Argv) {
     } else {
 
 	/* Create parameter available for other nodes */
-	RosIF.CycleTime = 10000;
+    RosIF.CycleTime = 10;
 	LOG("  -> No param '%s' was set! Use default cycle time!", sbuf);
 	node->setParam(sbuf, RosIF.CycleTime);
     }

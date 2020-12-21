@@ -9,4 +9,6 @@ int64   cycleno                                # Cycle number since simulation s
 float64 synthdelay                             # Synthetic delay to check synchronization (optional)
 float64 steer
 float64 accel
+float64[] vel
+
 

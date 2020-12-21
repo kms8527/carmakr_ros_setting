@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: hellocm
+Description: Description of hellocm
+Version: 0.8.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime cmrosutils hellocm_msgs

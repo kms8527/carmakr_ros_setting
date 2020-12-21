@@ -45,7 +45,8 @@
 #include "apo.h"
 #include "GuiCmd.h"
 
-// #include "Vehicle.h"
+#include <Car/Car.h>
+//#include "Vehicle.h"
 #include "DrivMan.h"
 // #include "Vehicle/Sensor_Object.h"
 
@@ -369,7 +370,9 @@ CMRosIF_CMNode_Init (int Argc, char **Argv, char *CMNodeName, struct tInfos *Inf
 
 
     DrivMan.ActualMan.SteerBy = tDMSteerBy::DMSteerBy_Trq;
-
+    
+    
+    
     LOG("Initialize CarMaker ROS Node");
     LOG("  -> Node Version = %05d", CMNODE_NUMVER);
     LOG("  -> ROS Version  = %05d", ROS_VERSION);
@@ -414,7 +417,7 @@ CMRosIF_CMNode_Init (int Argc, char **Argv, char *CMNodeName, struct tInfos *Inf
 	LOG("  -> Provide simulation time!");
 	node->setParam("/use_sim_time", true); /* enable parameter if not already done */
 
-	CMNode.Cfg.nCyclesClock  = iGetIntOpt(Inf, "Node.nCyclesClock", 1000);
+    CMNode.Cfg.nCyclesClock  = iGetIntOpt(Inf, "Node.nCyclesClock", 1000);
 
 	strcpy(sbuf, "/clock");
 	LOG("    -> Publish '%s' every %dms", sbuf, CMNode.Cfg.nCyclesClock);
@@ -433,7 +436,7 @@ CMRosIF_CMNode_Init (int Argc, char **Argv, char *CMNodeName, struct tInfos *Inf
     LOG("  -> Publish '%s'", sbuf);
     CMNode.Topics.Pub.CM2Ext.Pub         = node->advertise<hellocm_msgs::CM2Ext>(sbuf, CMNode.Cfg.QueuePub);
     CMNode.Topics.Pub.CM2Ext.Job         = CMCRJob_Create("CM2Ext");
-    CMNode.Topics.Pub.CM2Ext.CycleTime   = 5000;
+    CMNode.Topics.Pub.CM2Ext.CycleTime   = 10;
     CMNode.Topics.Pub.CM2Ext.CycleOffset = 0;
 
 
@@ -449,7 +452,7 @@ CMRosIF_CMNode_Init (int Argc, char **Argv, char *CMNodeName, struct tInfos *Inf
 
     /* In this example cycle time might be updated with value of external ROS Node
      * - See CMRosIF_CMNode_TestRun_Start_atBegin() */
-    CMNode.Topics.Sub.Ext2CM.CycleTime   = 15000;
+    CMNode.Topics.Sub.Ext2CM.CycleTime   = 10;
 
     /* Services */
     strcpy(sbuf, hellocm::srv_init_name.c_str());
@@ -910,13 +913,13 @@ CMRosIF_CMNode_In (void)
 int
 CMRosIF_CMNode_DrivMan_Calc (double dt)
 {
-//    LOG("AAAAAAA");
+
     /* Only do anything if simulation is running */
     if (CMNode.Cfg.Mode == CMNode_Mode_Disabled
 	    || SimCore.State != SCState_Simulate)
 	return 0;
 
-//    LOG("bbbbbbbbbbb");
+
     auto out = &CMNode.Topics.Sub.Ext2CM;
     DrivMan.Steering.Ang = out->Msg.steer;
     DrivMan.Gas = out->Msg.accel;
@@ -1041,6 +1044,9 @@ CMRosIF_CMNode_Out (void)
     out->Msg.steer        = DrivMan.Steering.Ang;
     out->Msg.accel        = DrivMan.Gas;
 
+    double *x = Car.ConBdy1.v_1;
+    std::vector<double> car_vel(x, x + sizeof x / sizeof x[0]);
+    out->Msg.vel          = car_vel;
 
 	/* Header stamp and frame needs to be set manually! */
 

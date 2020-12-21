@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o"
+  "CMakeFiles/hellocm_node.dir/src/controller.cpp.o"
   "/home/zz/carmaker_ros/ros/ros1_ws/devel/lib/hellocm/hellocm_node.pdb"
   "/home/zz/carmaker_ros/ros/ros1_ws/devel/lib/hellocm/hellocm_node"
 )

@@ -96,11 +96,19 @@ hellocm_msgs/CM2Ext.h
 hellocm_msgs/Init.h
 -
 
+/home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/include/hellocm/controller.h
+
 /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/src/ROS1_HelloCM.cpp
 cmrosutils/CMRosUtils.h
 -
+hellocm/controller.h
+-
 hellocm/ROS1_HelloCM.h
 -
+
+/home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/src/controller.cpp
+hellocm/controller.h
+/home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/src/hellocm/controller.h
 
 /opt/ros/ros1/include/ros/advertise_options.h
 ros/forwards.h

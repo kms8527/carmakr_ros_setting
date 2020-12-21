@@ -151,6 +151,8 @@ apo.h
 /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm_cmnode/src/apo.h
 GuiCmd.h
 /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm_cmnode/src/GuiCmd.h
+Car/Car.h
+-
 DrivMan.h
 /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm_cmnode/src/DrivMan.h
 cmrosutils/CMRosUtils.h
@@ -167,6 +169,22 @@ hellocm_msgs/CM2Ext.h
 -
 hellocm_msgs/Init.h
 -
+
+/opt/ipg/carmaker/linux64-9.0.2/include/Car/Car.h
+CarMaker4SL.h
+-
+GCS.h
+-
+Vehicle.h
+-
+Vehicle/MBSUtils.h
+-
+Vehicle/Sensor_Road.h
+-
+Car/Susp.h
+-
+
+/opt/ipg/carmaker/linux64-9.0.2/include/Car/Susp.h
 
 /opt/ipg/carmaker/linux64-9.0.2/include/CarMaker4SL.h
 SimCore.h

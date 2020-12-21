@@ -15,3 +15,4 @@ ERROR		FATAL ERROR - Application stopped
 		Eliminate the error and restart the application
 SHUTDOWN	CarMaker shutdown initiated
 
+		Caught signal SIGTERM (15)

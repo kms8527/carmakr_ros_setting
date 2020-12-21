@@ -76,9 +76,8 @@ rqt.Args =
 #
 
 Node.Mode = 1
-Node.Sync.Mode = 0
-Node.Sync.TimeMax = 5.0
+Node.Sync.Mode = 1
+Node.Sync.TimeMax = 1
 Node.UseSimTime = 1
-Node.nCyclesClock = 100
-
+Node.nCyclesClock = 1
 

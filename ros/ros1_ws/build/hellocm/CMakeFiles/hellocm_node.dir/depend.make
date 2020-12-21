@@ -8,6 +8,7 @@ hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ro
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/devel/include/hellocm_msgs/InitResponse.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/cmrosutils/include/cmrosutils/CMRosUtils.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/include/hellocm/ROS1_HelloCM.h
+hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/include/hellocm/controller.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/src/ROS1_HelloCM.cpp
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/include/ros/advertise_options.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/include/ros/advertise_service_options.h
@@ -69,4 +70,7 @@ hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/includ
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/include/std_msgs/Header.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/include/xmlrpcpp/XmlRpcDecl.h
 hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.o: /opt/ros/ros1/include/xmlrpcpp/XmlRpcValue.h
+
+hellocm/CMakeFiles/hellocm_node.dir/src/controller.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/include/hellocm/controller.h
+hellocm/CMakeFiles/hellocm_node.dir/src/controller.cpp.o: /home/zz/carmaker_ros/ros/ros1_ws/src/hellocm/src/controller.cpp
 

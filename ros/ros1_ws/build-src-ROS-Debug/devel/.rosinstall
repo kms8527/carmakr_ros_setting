@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zz/carmaker_ros/ros/ros1_ws/build-src-ROS-Debug/devel/setup.sh

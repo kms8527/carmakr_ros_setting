@@ -1,0 +1,65 @@
+APPLICATION	Car_Generic with CMRosIF #55 (linux64-9.0.2)
+COMPILED	zz@zz-system-product-name 2020-12-20 03:15:31
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros1_ws/devel/lib/libCMNode_ROS1_HelloCM.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 1060881
+		  -> CM Version   = 90002
+		  -> Has param '/use_sim_time' with value '1'
+		  -> Don't provide simulation time!
+		  -> Publish 'hellocm/cm2ext'
+		  -> Subscribe 'hellocm/ext2cm'
+		  -> Service Client 'hellocm/init'
+		  -> Create Service 'CMRemote'
+		Initialization of ROS Node finished!
+		  -> Node Name = '/CMNode'
+		  -> Namespace = '/'
+		  -> Advertised Topics (2)
+		    -> /rosout
+		    -> /hellocm/cm2ext
+		  -> Subscribed Topics (2)
+		    -> /clock
+		    -> /hellocm/ext2cm
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+FIRST_INIT	(internal default used)	2020-12-20 03:16:27
+TIME	0.000
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	03:16:27
+SIM_START	Test	2020-12-20 03:16:31
+TIME	0.377
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=1
+		  -> Node Name = /CMNode
+		  -> Send Service Request
+TIME	0.002
+		  -> Cycle time of external node changed from 15000ms to 1ms
+		  -> Synchronize on Topic '/hellocm/ext2cm' (cycletime=1, cycleoff=0)
+		External ROS Node is ready to simulate
+TIME	0.000
+SIMULATE	Test
+
+		steer = 0.000s, accel = 0.000
+		steer = 0.000s, accel = 0.000
+ERROR		CMNode: Synchronization error! tDelta=100.000, Last invalid Job='Ext2CM_for_Sync'
+		steer = 0.000s, accel = 0.000
+SIM_ABORT	Test	0.003s	0.0599998m
+SIM_START	Test	2020-12-20 03:18:19
+TIME	0.002
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=1
+		  -> Node Name = /CMNode
+		  -> Send Service Request
+		  -> Synchronize on Topic '/hellocm/ext2cm' (cycletime=1, cycleoff=0)
+		External ROS Node is ready to simulate
+TIME	0.000
+SIMULATE	Test
+
+		steer = 0.000s, accel = 0.000
+		steer = 0.000s, accel = 0.000
+		steer = 0.000s, accel = 0.000
+SHUTDOWN	CarMaker shutdown initiated
+
+SIM_END		Test	0.003s	0.0599998m
+		CMRosIF_CMNode_End: End

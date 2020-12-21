@@ -207,6 +207,33 @@ src/ROS1_HelloCM.cpp.s:
 	cd /home/zz/carmaker_ros/ros/ros1_ws/build && $(MAKE) -f hellocm/CMakeFiles/hellocm_node.dir/build.make hellocm/CMakeFiles/hellocm_node.dir/src/ROS1_HelloCM.cpp.s
 .PHONY : src/ROS1_HelloCM.cpp.s
 
+src/controller.o: src/controller.cpp.o
+
+.PHONY : src/controller.o
+
+# target to build an object file
+src/controller.cpp.o:
+	cd /home/zz/carmaker_ros/ros/ros1_ws/build && $(MAKE) -f hellocm/CMakeFiles/hellocm_node.dir/build.make hellocm/CMakeFiles/hellocm_node.dir/src/controller.cpp.o
+.PHONY : src/controller.cpp.o
+
+src/controller.i: src/controller.cpp.i
+
+.PHONY : src/controller.i
+
+# target to preprocess a source file
+src/controller.cpp.i:
+	cd /home/zz/carmaker_ros/ros/ros1_ws/build && $(MAKE) -f hellocm/CMakeFiles/hellocm_node.dir/build.make hellocm/CMakeFiles/hellocm_node.dir/src/controller.cpp.i
+.PHONY : src/controller.cpp.i
+
+src/controller.s: src/controller.cpp.s
+
+.PHONY : src/controller.s
+
+# target to generate assembly for a file
+src/controller.cpp.s:
+	cd /home/zz/carmaker_ros/ros/ros1_ws/build && $(MAKE) -f hellocm/CMakeFiles/hellocm_node.dir/build.make hellocm/CMakeFiles/hellocm_node.dir/src/controller.cpp.s
+.PHONY : src/controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,6 +251,9 @@ help:
 	@echo "... src/ROS1_HelloCM.o"
 	@echo "... src/ROS1_HelloCM.i"
 	@echo "... src/ROS1_HelloCM.s"
+	@echo "... src/controller.o"
+	@echo "... src/controller.i"
+	@echo "... src/controller.s"
 .PHONY : help
 
 
